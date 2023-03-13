@@ -3621,11 +3621,17 @@ input, select, textarea {
 			#banner h2:before {
 				top: 0;
 				left: 0;
+				background-image: url("images/dino.png");
+  				background-repeat: no-repeat;
+  				background-position: center center;
 			}
 
 			#banner h2:after {
 				bottom: 0;
 				right: 0;
+				background-image: url("images/dino.png");
+  				background-repeat: no-repeat;
+  				background-position: center center;
 			}
 
 		#banner p {
