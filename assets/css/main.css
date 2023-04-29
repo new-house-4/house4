@@ -2078,11 +2078,11 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: ##D9D9D9;
+			color: #D9D9D9;
 		}
 
 		.icon.style2 {
-			color: ##737373;
+			color: #737373;
 		}
 
 		.icon.style3 {
@@ -2817,7 +2817,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #292929;
+			background-image: linear-gradient(to bottom, #4D3A37, #654c48);
 			color: #ffffff;
 		}
 
@@ -2976,7 +2976,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background-color: #292929;
+			background-image: linear-gradient(to bottom, #4D3A37, #654c48);
 		}
 
 		.wrapper.style3 {
@@ -3143,8 +3143,9 @@ input, select, textarea {
 		}
 
 		.wrapper.style5 {
-			background-color: #ffffff;
-			color: #4E4852;
+			/*background-color: #ffffff;*/
+			background-image: linear-gradient(to bottom,#2E4030, #48654C);
+			color: #ffffff;
 		}
 
 			.wrapper.style5 strong, .wrapper.style5 b {
@@ -3152,7 +3153,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style5 h2, .wrapper.style5 h3, .wrapper.style5 h4, .wrapper.style5 h5, .wrapper.style5 h6 {
-				color: #292929;
+				color: #ffffff;
 			}
 
 			.wrapper.style5 hr {
@@ -3253,7 +3254,7 @@ input, select, textarea {
 				}
 
 			.wrapper.style5 table th {
-				color: #292929;
+				color: #ffffff;
 			}
 
 			.wrapper.style5 table thead {
@@ -3351,7 +3352,8 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #8C8FA2;
+		background-image: linear-gradient(to bottom, #48654C, #2E4030);
+		/*background: #706A95;*/
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3694,7 +3696,8 @@ input, select, textarea {
 			-ms-transition-delay: 1.25s;
 			transition-delay: 1.25s;
 			content: '';
-			background: #8C8FA2;
+			background-image: linear-gradient(to bottom, #48654C, #2E4030);
+			/*background: #48654C;*/
 			display: block;
 			width: 100%;
 			height: 100%;
@@ -3814,10 +3817,10 @@ input, select, textarea {
 
 	#main > header {
 		padding: 12em 0 10em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/h4fam.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/h4fam.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/h4fam.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/h4fam.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3964,10 +3967,10 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.75)), url("../../images/dodgeball.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.75)), url("../../images/dodgeball.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.75)), url("../../images/dodgeball.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.75)), url("../../images/dodgeball.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3985,10 +3988,10 @@ input, select, textarea {
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.75)), url("../../images/dodgeball.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.75)), url("../../images/dodgeball.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.75)), url("../../images/dodgeball.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.75)), url("../../images/dodgeball.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
