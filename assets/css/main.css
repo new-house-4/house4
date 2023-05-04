@@ -34,6 +34,8 @@ body {
 	line-height: 1;
 }
 
+#myFrame { width:100%; height:100%; }
+
 ol, ul {
 	list-style: none;
 }
@@ -1950,7 +1952,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #2e3842;
+			background: #404448;
 			color: #fff;
 			content: '\f00c';
 		}
@@ -2977,7 +2979,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background-image: linear-gradient(to bottom, #4D3A37, #654c48);
+			background-image: var(--card-grad);
 		}
 
 		.wrapper.style3 {
@@ -3145,7 +3147,7 @@ input, select, textarea {
 
 		.wrapper.style5 {
 			/*background-color: #ffffff;*/
-			background-image: linear-gradient(to bottom,#2E4030, #48654C);
+			background-image: var(--card-grad);
 			color: #ffffff;
 		}
 
@@ -3353,7 +3355,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background-image: linear-gradient(to bottom, #48654C, #2E4030);
+		background-image: var(--card-grad);
 		/*background: #706A95;*/
 		color: #ffffff;
 		height: 100%;
@@ -3448,7 +3450,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #292929;
+		background: var(--dark-grad);
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -3697,7 +3699,7 @@ input, select, textarea {
 			-ms-transition-delay: 1.25s;
 			transition-delay: 1.25s;
 			content: '';
-			background-image: linear-gradient(to bottom, #48654C, #2E4030);
+			background-image: var(--dark-grad);
 			/*background: #48654C;*/
 			display: block;
 			width: 100%;
@@ -3999,7 +4001,7 @@ input, select, textarea {
 	}
 
 	body.is-mobile.landing #footer {
-		background-color: #1d242a;
+		background: var(--dark-grad);
 	}
 
 
@@ -4008,4 +4010,8 @@ input, select, textarea {
 		--card-grad: linear-gradient(217deg, rgba(75, 56, 66,0.8), rgba(255,0,0,0) 70.71%),
 				              linear-gradient(127deg, rgba(145, 146, 162,0.8), rgba(0,255,0,0) 70.71%),            
 							  linear-gradient(336deg, rgba(52, 61, 63,.8), rgba(0,0,255,0) 70.71%);
+		--dark-grad: linear-gradient(217deg, #221d1c, #343d3f);
+		
+				              
+	
 	  }
