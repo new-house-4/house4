@@ -24,6 +24,7 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
+	
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -2817,7 +2818,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-image: linear-gradient(to bottom, #4D3A37, #654c48);
+			background-image: var(--card-grad);
 			color: #ffffff;
 		}
 
@@ -4000,3 +4001,11 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+
+
+	:root {
+		--card-grad: linear-gradient(217deg, rgba(75, 56, 66,0.8), rgba(255,0,0,0) 70.71%),
+				              linear-gradient(127deg, rgba(145, 146, 162,0.8), rgba(0,255,0,0) 70.71%),            
+							  linear-gradient(336deg, rgba(52, 61, 63,.8), rgba(0,0,255,0) 70.71%);
+	  }
